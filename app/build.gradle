@@ -28,4 +28,8 @@ android {
     }
 
     buildFeatures{
- 
+        viewBinding true
+    }
+
+    compileOptions {
+        sourceCompatibility J
