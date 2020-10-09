@@ -57,4 +57,5 @@ dependencies {
 
     // navigation component
     def nav_version = "2.5.3"
-    imple
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implement
