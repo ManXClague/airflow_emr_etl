@@ -61,4 +61,5 @@ dependencies {
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
 
     // firebase
-    imple
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.fireb
