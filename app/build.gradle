@@ -66,4 +66,12 @@ dependencies {
     implementation 'com.google.firebase:firebase-storage-ktx'
 
     // firebase BoM
-    implementation platform('c
+    implementation platform('com.google.firebase:firebase-bom:31.0.2')
+
+
+
+}
+
+kapt {
+    correctErrorTypes true
+}
