@@ -6,4 +6,6 @@
   },
   "client": [
     {
-      "client_i
+      "client_info": {
+        "mobilesdk_app_id": "1:789574828085:android:55de226bc4f9cd42e7317c",
+  
