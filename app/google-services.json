@@ -10,4 +10,8 @@
         "mobilesdk_app_id": "1:789574828085:android:55de226bc4f9cd42e7317c",
         "android_client_info": {
           "package_name": "com.nowiczenkoandrzej.e_bazarek"
-      
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7895748280
