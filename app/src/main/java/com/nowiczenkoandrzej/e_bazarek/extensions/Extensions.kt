@@ -5,4 +5,6 @@ import android.content.Intent
 import android.view.View
 import android.view.animation.AlphaAnimation
 import android.widget.Toast
-import androidx.appcompat.app.AppCompat
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.isVisible
+import androidx.fragment.app.Fragment
