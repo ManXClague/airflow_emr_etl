@@ -8,4 +8,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
-import com.nowiczenkoandrzej.e_bazarek.presentation.activities.ContentActiv
+import com.nowiczenkoandrzej.e_bazarek.presentation.activities.ContentActivity
+
+fun Fragment.startApp(context: Context){
+    Intent(context, ContentActivity::class.java
