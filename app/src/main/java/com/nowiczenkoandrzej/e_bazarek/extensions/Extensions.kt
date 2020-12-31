@@ -12,4 +12,12 @@ import com.nowiczenkoandrzej.e_bazarek.presentation.activities.ContentActivity
 
 fun Fragment.startApp(context: Context){
     Intent(context, ContentActivity::class.java).apply {
-        flags = (Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CL
+        flags = (Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
+    }.also {
+        startActivity(it)
+    }
+
+}
+
+
+fun AppCompatActiv
