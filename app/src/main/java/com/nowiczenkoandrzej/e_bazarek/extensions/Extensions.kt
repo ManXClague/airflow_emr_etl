@@ -20,4 +20,6 @@ fun Fragment.startApp(context: Context){
 }
 
 
-fun AppCompatActiv
+fun AppCompatActivity.startApp(context: Context){
+    Intent(context, ContentActivity::class.java).apply {
+        
