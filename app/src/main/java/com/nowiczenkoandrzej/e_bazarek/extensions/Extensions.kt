@@ -33,4 +33,9 @@ fun Fragment.quickToast(message: String){
     Toast.makeText(requireContext(), message, Toast.LENGTH_SHORT).show()
 }
 
-fun Vie
+fun View.hide(){
+    this.isVisible = false
+}
+
+fun View.show(){
+    this.isVisibl
