@@ -42,4 +42,7 @@ fun View.show(){
 }
 
 fun View.makeMoreTransparent(){
-    AlphaAnimation(1.0F, 
+    AlphaAnimation(1.0F, 0.2F).apply {
+        duration = 250
+        fillAfter = true
+    }.also {
