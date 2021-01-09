@@ -38,4 +38,8 @@ fun View.hide(){
 }
 
 fun View.show(){
-    this.isVisibl
+    this.isVisible = true
+}
+
+fun View.makeMoreTransparent(){
+    AlphaAnimation(1.0F, 
