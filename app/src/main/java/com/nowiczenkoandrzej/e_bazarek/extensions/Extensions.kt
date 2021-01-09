@@ -30,4 +30,7 @@ fun AppCompatActivity.startApp(context: Context){
 }
 
 fun Fragment.quickToast(message: String){
-    Toast.mak
+    Toast.makeText(requireContext(), message, Toast.LENGTH_SHORT).show()
+}
+
+fun Vie
