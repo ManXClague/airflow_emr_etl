@@ -51,4 +51,8 @@ fun View.makeMoreTransparent(){
 }
 
 fun View.makeLessTransparent(){
-    AlphaAnimation(0.2
+    AlphaAnimation(0.2F, 1.0F).apply {
+        duration = 250
+        fillAfter = true
+    }.also {
+        s
