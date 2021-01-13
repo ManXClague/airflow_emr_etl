@@ -55,4 +55,6 @@ fun View.makeLessTransparent(){
         duration = 250
         fillAfter = true
     }.also {
-        s
+        startAnimation(it)
+    }
+}
