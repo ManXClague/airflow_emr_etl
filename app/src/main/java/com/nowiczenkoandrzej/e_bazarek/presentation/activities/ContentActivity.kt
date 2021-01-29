@@ -11,4 +11,6 @@ import com.nowiczenkoandrzej.e_bazarek.databinding.ActivityContentBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class ContentActivity : 
+class ContentActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityContentBind
