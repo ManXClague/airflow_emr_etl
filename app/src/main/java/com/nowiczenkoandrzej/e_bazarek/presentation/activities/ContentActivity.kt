@@ -6,4 +6,5 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import com.nowiczenkoandrzej.e_baz
+import com.nowiczenkoandrzej.e_bazarek.R
+import com.nowiczenkoandrzej.e_bazarek.databinding.ActivityContentBi
