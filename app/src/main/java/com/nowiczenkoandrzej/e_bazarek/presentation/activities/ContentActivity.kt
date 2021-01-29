@@ -16,4 +16,5 @@ class ContentActivity : AppCompatActivity() {
     private lateinit var binding: ActivityContentBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super
+        super.onCreate(savedInstanceState)
+        binding = ActivityContentBinding.in
