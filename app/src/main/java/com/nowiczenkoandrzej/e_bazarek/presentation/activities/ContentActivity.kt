@@ -7,4 +7,8 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.nowiczenkoandrzej.e_bazarek.R
-import com.nowiczenkoandrzej.e_bazarek.databinding.ActivityContentBi
+import com.nowiczenkoandrzej.e_bazarek.databinding.ActivityContentBinding
+import dagger.hilt.android.AndroidEntryPoint
+
+@AndroidEntryPoint
+class ContentActivity : 
