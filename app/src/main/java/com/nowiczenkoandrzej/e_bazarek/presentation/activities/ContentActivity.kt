@@ -17,4 +17,7 @@ class ContentActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityContentBinding.in
+        binding = ActivityContentBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        val appBarConfigur
