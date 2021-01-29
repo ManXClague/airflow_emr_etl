@@ -13,4 +13,7 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class ContentActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityContentBind
+    private lateinit var binding: ActivityContentBinding
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super
