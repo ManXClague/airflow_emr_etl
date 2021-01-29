@@ -5,4 +5,5 @@ import android.os.Bundle
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
-i
+import androidx.navigation.ui.setupWithNavController
+import com.nowiczenkoandrzej.e_baz
