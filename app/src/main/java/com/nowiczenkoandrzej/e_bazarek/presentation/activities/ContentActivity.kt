@@ -26,4 +26,6 @@ class ContentActivity : AppCompatActivity() {
             R.id.favoritesFragment
         ))
 
-        val 
+        val navController = findNavController(R.id.nav_host)
+
+        setupActionBarWithNavController(n
