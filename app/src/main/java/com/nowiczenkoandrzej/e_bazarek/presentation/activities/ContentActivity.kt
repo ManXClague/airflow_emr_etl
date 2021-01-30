@@ -22,4 +22,8 @@ class ContentActivity : AppCompatActivity() {
 
         val appBarConfiguration = AppBarConfiguration(setOf(
             R.id.profileFragment,
-            R.id.pr
+            R.id.productsFragment,
+            R.id.favoritesFragment
+        ))
+
+        val 
