@@ -20,4 +20,6 @@ class ContentActivity : AppCompatActivity() {
         binding = ActivityContentBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val appBarConfigur
+        val appBarConfiguration = AppBarConfiguration(setOf(
+            R.id.profileFragment,
+            R.id.pr
