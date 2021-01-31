@@ -28,4 +28,5 @@ class ContentActivity : AppCompatActivity() {
 
         val navController = findNavController(R.id.nav_host)
 
-        setupActionBarWithNavController(n
+        setupActionBarWithNavController(navController, appBarConfiguration)
+        binding.bottomNav.setupWithNavController(navC
