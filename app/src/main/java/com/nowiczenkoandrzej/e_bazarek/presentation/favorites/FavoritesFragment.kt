@@ -4,4 +4,8 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
-import android.vi
+import android.view.ViewGroup
+import com.nowiczenkoandrzej.e_bazarek.R
+
+
+class FavoritesFragm
