@@ -11,4 +11,7 @@ import com.nowiczenkoandrzej.e_bazarek.R
 class FavoritesFragment : Fragment() {
 
     override fun onCreateView(
-        inflater: LayoutInflater, conta
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+ 
