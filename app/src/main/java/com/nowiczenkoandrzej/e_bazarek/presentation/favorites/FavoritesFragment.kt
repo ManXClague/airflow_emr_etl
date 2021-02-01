@@ -8,4 +8,7 @@ import android.view.ViewGroup
 import com.nowiczenkoandrzej.e_bazarek.R
 
 
-class FavoritesFragm
+class FavoritesFragment : Fragment() {
+
+    override fun onCreateView(
+        inflater: LayoutInflater, conta
