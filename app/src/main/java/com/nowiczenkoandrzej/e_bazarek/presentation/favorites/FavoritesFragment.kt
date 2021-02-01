@@ -15,4 +15,7 @@ class FavoritesFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragme
+        return inflater.inflate(R.layout.fragment_favorites, container, false)
+    }
+
+}
