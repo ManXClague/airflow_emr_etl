@@ -13,4 +13,6 @@ import androidx.navigation.fragment.findNavController
 import com.nowiczenkoandrzej.e_bazarek.utils.AccountState
 import com.nowiczenkoandrzej.e_bazarek.databinding.FragmentLoginBinding
 import com.nowiczenkoandrzej.e_bazarek.extensions.hide
-import com.nowiczenkoandrzej.e_bazarek.extensions.
+import com.nowiczenkoandrzej.e_bazarek.extensions.quickToast
+import com.nowiczenkoandrzej.e_bazarek.extensions.show
+import com.nowicze
