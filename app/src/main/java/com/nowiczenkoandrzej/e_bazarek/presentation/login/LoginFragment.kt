@@ -12,4 +12,5 @@ import androidx.lifecycle.repeatOnLifecycle
 import androidx.navigation.fragment.findNavController
 import com.nowiczenkoandrzej.e_bazarek.utils.AccountState
 import com.nowiczenkoandrzej.e_bazarek.databinding.FragmentLoginBinding
-import com.nowic
+import com.nowiczenkoandrzej.e_bazarek.extensions.hide
+import com.nowiczenkoandrzej.e_bazarek.extensions.
