@@ -15,4 +15,7 @@ import com.nowiczenkoandrzej.e_bazarek.databinding.FragmentLoginBinding
 import com.nowiczenkoandrzej.e_bazarek.extensions.hide
 import com.nowiczenkoandrzej.e_bazarek.extensions.quickToast
 import com.nowiczenkoandrzej.e_bazarek.extensions.show
-import com.nowicze
+import com.nowiczenkoandrzej.e_bazarek.extensions.startApp
+import dagger.hilt.android.AndroidEntryPoint
+
+@Androi
