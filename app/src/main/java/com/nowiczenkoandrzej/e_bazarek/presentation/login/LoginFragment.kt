@@ -18,4 +18,7 @@ import com.nowiczenkoandrzej.e_bazarek.extensions.show
 import com.nowiczenkoandrzej.e_bazarek.extensions.startApp
 import dagger.hilt.android.AndroidEntryPoint
 
-@Androi
+@AndroidEntryPoint
+class LoginFragment : Fragment() {
+
+    private lateinit var binding: Fragmen
