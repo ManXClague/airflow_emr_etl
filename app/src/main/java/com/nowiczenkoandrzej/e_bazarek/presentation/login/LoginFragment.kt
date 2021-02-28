@@ -28,4 +28,6 @@ class LoginFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
-        savedInstanceSt
+        savedInstanceState: Bundle?
+    ): View {
+        binding = FragmentLoginBinding.inflate(inflater, container, fals
