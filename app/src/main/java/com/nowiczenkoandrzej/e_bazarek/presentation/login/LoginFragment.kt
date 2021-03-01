@@ -36,4 +36,8 @@ class LoginFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-   
+        setListeners()
+        subscribeCollector()
+    }
+
+    private fun setLi
