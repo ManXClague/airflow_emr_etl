@@ -40,4 +40,6 @@ class LoginFragment : Fragment() {
         subscribeCollector()
     }
 
-    private fun setLi
+    private fun setListeners(){
+        binding.buttonSignIn.setOnClickListener {
+            setSingInButtonList
