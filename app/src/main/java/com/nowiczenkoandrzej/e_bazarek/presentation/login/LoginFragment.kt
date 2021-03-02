@@ -51,4 +51,5 @@ class LoginFragment : Fragment() {
 
     private fun setSingInButtonListener(){
 
-  
+        if(binding.inputEmail.text!!.isBlank() ||
+            binding.inputPassword.text!!
