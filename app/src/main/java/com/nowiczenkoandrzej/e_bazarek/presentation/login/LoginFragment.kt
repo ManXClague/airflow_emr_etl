@@ -45,4 +45,10 @@ class LoginFragment : Fragment() {
             setSingInButtonListener()
         }
         binding.buttonSingUp.setOnClickListener {
-            se
+            setSingUpButtonListener()
+        }
+    }
+
+    private fun setSingInButtonListener(){
+
+  
