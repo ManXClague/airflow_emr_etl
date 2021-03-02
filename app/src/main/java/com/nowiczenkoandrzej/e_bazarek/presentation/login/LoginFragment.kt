@@ -42,4 +42,7 @@ class LoginFragment : Fragment() {
 
     private fun setListeners(){
         binding.buttonSignIn.setOnClickListener {
-            setSingInButtonList
+            setSingInButtonListener()
+        }
+        binding.buttonSingUp.setOnClickListener {
+            se
