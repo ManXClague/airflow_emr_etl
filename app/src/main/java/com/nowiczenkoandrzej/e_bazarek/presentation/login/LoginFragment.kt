@@ -52,4 +52,6 @@ class LoginFragment : Fragment() {
     private fun setSingInButtonListener(){
 
         if(binding.inputEmail.text!!.isBlank() ||
-            binding.inputPassword.text!!
+            binding.inputPassword.text!!.isBlank()){
+            quickToast("Invalid e-mail or password")
+          
