@@ -54,4 +54,7 @@ class LoginFragment : Fragment() {
         if(binding.inputEmail.text!!.isBlank() ||
             binding.inputPassword.text!!.isBlank()){
             quickToast("Invalid e-mail or password")
-          
+            return
+        }
+
+        val email = binding.inputEmail.text?.trim().toSt
