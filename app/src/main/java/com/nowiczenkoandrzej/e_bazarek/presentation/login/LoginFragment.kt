@@ -57,4 +57,6 @@ class LoginFragment : Fragment() {
             return
         }
 
-        val email = binding.inputEmail.text?.trim().toSt
+        val email = binding.inputEmail.text?.trim().toString()
+        val password = binding.inputPassword.text?.trim().toString()
+        viewMo
