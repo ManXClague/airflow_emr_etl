@@ -59,4 +59,8 @@ class LoginFragment : Fragment() {
 
         val email = binding.inputEmail.text?.trim().toString()
         val password = binding.inputPassword.text?.trim().toString()
-        viewMo
+        viewModel.singIn(email, password)
+
+    }
+
+    private fun setSingUpButtonListener(
