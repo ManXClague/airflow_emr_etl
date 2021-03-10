@@ -68,4 +68,5 @@ class LoginFragment : Fragment() {
             .actionLoginFragmentToRegistrationFragment()
             .actionId)
 
-   
+    private fun subscribeCollector(){
+        lifecycleScope.launchWhenStarted
