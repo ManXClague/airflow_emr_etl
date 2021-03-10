@@ -65,3 +65,7 @@ class LoginFragment : Fragment() {
 
     private fun setSingUpButtonListener() = findNavController().navigate(
         LoginFragmentDirections
+            .actionLoginFragmentToRegistrationFragment()
+            .actionId)
+
+   
