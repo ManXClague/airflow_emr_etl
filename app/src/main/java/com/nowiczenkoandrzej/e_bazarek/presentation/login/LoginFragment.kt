@@ -73,4 +73,5 @@ class LoginFragment : Fragment() {
             repeatOnLifecycle(Lifecycle.State.STARTED){
                 viewModel.loginState.collect{ state ->
                     when(state){
-     
+                        is AccountState.Success -> {
+                            binding.pro
