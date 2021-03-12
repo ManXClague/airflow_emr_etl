@@ -69,4 +69,6 @@ class LoginFragment : Fragment() {
             .actionId)
 
     private fun subscribeCollector(){
-        lifecycleScope.launchWhenStarted
+        lifecycleScope.launchWhenStarted {
+            repeatOnLifecycle(Lifecycle.State.STARTED){
+         
