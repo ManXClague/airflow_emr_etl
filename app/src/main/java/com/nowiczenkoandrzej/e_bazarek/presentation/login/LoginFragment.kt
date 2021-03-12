@@ -74,4 +74,6 @@ class LoginFragment : Fragment() {
                 viewModel.loginState.collect{ state ->
                     when(state){
                         is AccountState.Success -> {
-                            binding.pro
+                            binding.progressBar.hide()
+                            startApp(requireContext())
+             
