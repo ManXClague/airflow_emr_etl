@@ -76,4 +76,6 @@ class LoginFragment : Fragment() {
                         is AccountState.Success -> {
                             binding.progressBar.hide()
                             startApp(requireContext())
-             
+                        }
+                        is AccountState.Failure -> {
+                           
