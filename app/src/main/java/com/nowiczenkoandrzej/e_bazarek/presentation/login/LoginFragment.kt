@@ -80,3 +80,5 @@ class LoginFragment : Fragment() {
                         is AccountState.Failure -> {
                             binding.progressBar.hide()
                             quickToast(state.error)
+                        }
+                        is AccountState.Loadi
