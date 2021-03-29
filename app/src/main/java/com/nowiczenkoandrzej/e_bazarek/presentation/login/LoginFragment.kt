@@ -83,4 +83,10 @@ class LoginFragment : Fragment() {
                         }
                         is AccountState.Loading -> binding.progressBar.show()
                         is AccountState.Empty -> Unit
-   
+                    }
+                }
+            }
+        }
+    }
+
+}
