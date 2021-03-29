@@ -81,4 +81,6 @@ class LoginFragment : Fragment() {
                             binding.progressBar.hide()
                             quickToast(state.error)
                         }
-                        is AccountState.Loadi
+                        is AccountState.Loading -> binding.progressBar.show()
+                        is AccountState.Empty -> Unit
+   
