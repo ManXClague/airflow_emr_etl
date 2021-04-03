@@ -10,4 +10,8 @@ import javax.inject.Inject
 
 @HiltViewModel
 class LoginViewModel
-@Inject 
+@Inject constructor(
+    private val fbAuth: FirebaseAuth
+): ViewModel(){
+
+    private val _loginState 
