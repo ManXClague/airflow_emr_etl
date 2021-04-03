@@ -15,4 +15,8 @@ class LoginViewModel
 ): ViewModel(){
 
     private val _loginState = MutableStateFlow<AccountState>(AccountState.Empty)
-    val loginState = _loginState.a
+    val loginState = _loginState.asStateFlow()
+
+    fun singIn(email: String, password: String) {
+
+        _loginState.value = Acco
