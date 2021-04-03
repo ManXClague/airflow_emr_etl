@@ -22,4 +22,6 @@ class LoginViewModel
         _loginState.value = AccountState.Loading
 
         fbAuth.signInWithEmailAndPassword(email, password)
-         
+            .addOnSuccessListener { authRes ->
+                if (authRes.user != null)
+     
