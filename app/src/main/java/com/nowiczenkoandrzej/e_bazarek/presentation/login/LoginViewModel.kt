@@ -14,4 +14,5 @@ class LoginViewModel
     private val fbAuth: FirebaseAuth
 ): ViewModel(){
 
-    private val _loginState 
+    private val _loginState = MutableStateFlow<AccountState>(AccountState.Empty)
+    val loginState = _loginState.a
