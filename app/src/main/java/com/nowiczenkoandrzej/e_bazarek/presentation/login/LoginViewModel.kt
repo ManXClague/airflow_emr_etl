@@ -5,4 +5,9 @@ import com.google.firebase.auth.FirebaseAuth
 import com.nowiczenkoandrzej.e_bazarek.utils.AccountState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.cor
+import kotlinx.coroutines.flow.asStateFlow
+import javax.inject.Inject
+
+@HiltViewModel
+class LoginViewModel
+@Inject 
