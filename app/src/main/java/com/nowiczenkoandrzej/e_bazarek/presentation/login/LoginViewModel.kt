@@ -19,4 +19,7 @@ class LoginViewModel
 
     fun singIn(email: String, password: String) {
 
-        _loginState.value = Acco
+        _loginState.value = AccountState.Loading
+
+        fbAuth.signInWithEmailAndPassword(email, password)
+         
