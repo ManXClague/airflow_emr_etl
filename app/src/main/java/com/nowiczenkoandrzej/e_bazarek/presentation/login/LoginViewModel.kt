@@ -30,4 +30,7 @@ class LoginViewModel
 
             }
             .addOnFailureListener{
-                _loginState
+                _loginState.value = AccountState.Failure(it.message.toString())            }
+    }
+
+}
