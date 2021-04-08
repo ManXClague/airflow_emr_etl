@@ -26,4 +26,8 @@ class LoginViewModel
                 if (authRes.user != null)
                     _loginState.value = AccountState.Success
                 else
-                    _loginState.value = AccountState.Failure("Ups... Something went wr
+                    _loginState.value = AccountState.Failure("Ups... Something went wrong...")
+
+            }
+            .addOnFailureListener{
+                _loginState
