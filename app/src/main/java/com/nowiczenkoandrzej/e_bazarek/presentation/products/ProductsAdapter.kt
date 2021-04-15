@@ -7,4 +7,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.nowiczenkoandrzej.e_bazarek.R
-import com.nowi
+import com.nowiczenkoandrzej.e_bazarek.data.models.ProductResponse
+
+class ProductsAdapter(): Recyc
