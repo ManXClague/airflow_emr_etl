@@ -24,3 +24,5 @@ class ProductsAdapter(): RecyclerView.Adapter<ProductsAdapter.ViewHolder>() {
         return ViewHolder(itemView)
     }
 
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        holder.imag
