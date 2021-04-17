@@ -25,4 +25,5 @@ class ProductsAdapter(): RecyclerView.Adapter<ProductsAdapter.ViewHolder>() {
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.imag
+        holder.image.setImageResource(R.drawable.ic_baseline_default_avatar)
+        holder.title.text = product
