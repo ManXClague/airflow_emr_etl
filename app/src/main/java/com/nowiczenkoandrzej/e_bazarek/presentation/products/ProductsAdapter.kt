@@ -11,4 +11,7 @@ import com.nowiczenkoandrzej.e_bazarek.data.models.ProductResponse
 
 class ProductsAdapter(): RecyclerView.Adapter<ProductsAdapter.ViewHolder>() {
 
-    private val product
+    private val products = ArrayList<ProductResponse>()
+
+    fun setProducts(list: List<ProductResponse>){
+  
