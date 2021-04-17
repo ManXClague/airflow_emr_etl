@@ -14,4 +14,6 @@ class ProductsAdapter(): RecyclerView.Adapter<ProductsAdapter.ViewHolder>() {
     private val products = ArrayList<ProductResponse>()
 
     fun setProducts(list: List<ProductResponse>){
-  
+        products.clear()
+        products.addAll(list)
+        notifyData
