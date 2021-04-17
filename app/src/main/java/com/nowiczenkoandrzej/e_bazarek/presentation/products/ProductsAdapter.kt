@@ -16,4 +16,7 @@ class ProductsAdapter(): RecyclerView.Adapter<ProductsAdapter.ViewHolder>() {
     fun setProducts(list: List<ProductResponse>){
         products.clear()
         products.addAll(list)
-        notifyData
+        notifyDataSetChanged()
+    }
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewT
