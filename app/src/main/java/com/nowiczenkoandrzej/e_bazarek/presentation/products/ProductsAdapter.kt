@@ -9,4 +9,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.nowiczenkoandrzej.e_bazarek.R
 import com.nowiczenkoandrzej.e_bazarek.data.models.ProductResponse
 
-class ProductsAdapter(): Recyc
+class ProductsAdapter(): RecyclerView.Adapter<ProductsAdapter.ViewHolder>() {
+
+    private val product
