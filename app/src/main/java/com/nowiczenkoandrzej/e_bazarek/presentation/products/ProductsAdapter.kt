@@ -29,4 +29,10 @@ class ProductsAdapter(): RecyclerView.Adapter<ProductsAdapter.ViewHolder>() {
         holder.title.text = products[position].title
         holder.description.text = products[position].description
         holder.price.text = "$${products[position].price.toString()}"
- 
+    }
+
+    override fun getItemCount(): Int = products.size
+
+
+
+    inner class View
