@@ -40,4 +40,7 @@ class ProductsAdapter(): RecyclerView.Adapter<ProductsAdapter.ViewHolder>() {
         var image: ImageView
         var title: TextView
         var description: TextView
-        var pr
+        var price: TextView
+
+        init {
+            image = itemView.findViewById(R.id.iv_produc
