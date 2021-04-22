@@ -46,4 +46,9 @@ class ProductsAdapter(): RecyclerView.Adapter<ProductsAdapter.ViewHolder>() {
             image = itemView.findViewById(R.id.iv_product)
             title = itemView.findViewById(R.id.tv_title)
             description = itemView.findViewById(R.id.tv_description)
-            price = itemView.f
+            price = itemView.findViewById(R.id.tv_price)
+        }
+
+
+    }
+}
