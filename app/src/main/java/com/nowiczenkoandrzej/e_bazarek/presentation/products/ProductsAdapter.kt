@@ -37,4 +37,7 @@ class ProductsAdapter(): RecyclerView.Adapter<ProductsAdapter.ViewHolder>() {
 
     inner class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
 
-        
+        var image: ImageView
+        var title: TextView
+        var description: TextView
+        var pr
