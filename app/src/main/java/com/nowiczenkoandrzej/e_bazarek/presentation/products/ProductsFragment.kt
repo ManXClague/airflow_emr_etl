@@ -12,4 +12,5 @@ import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.nowiczenkoandrzej.e_bazarek.R
 import com.nowiczenkoandrzej.e_bazarek.data.models.ProductResponse
-import com.nowic
+import com.nowiczenkoandrzej.e_bazarek.databinding.FragmentProductsBinding
+import com.nowiczenkoandrzej.e_bazarek.
