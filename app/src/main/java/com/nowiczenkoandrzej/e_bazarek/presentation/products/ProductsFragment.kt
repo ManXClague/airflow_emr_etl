@@ -9,4 +9,6 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
-import androidx.recyclerview.widge
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.nowiczenkoandrzej.e_bazarek.R
+import com.nowic
