@@ -24,4 +24,8 @@ import kotlinx.coroutines.flow.collect
 class ProductsFragment : Fragment() {
 
     private lateinit var binding: FragmentProductsBinding
-    private lateinit var productsAdapter: Produc
+    private lateinit var productsAdapter: ProductsAdapter
+
+    private val viewModel: ProductsViewModel by viewModels()
+
+    overr
