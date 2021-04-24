@@ -15,4 +15,5 @@ import com.nowiczenkoandrzej.e_bazarek.data.models.ProductResponse
 import com.nowiczenkoandrzej.e_bazarek.databinding.FragmentProductsBinding
 import com.nowiczenkoandrzej.e_bazarek.extensions.hide
 import com.nowiczenkoandrzej.e_bazarek.extensions.quickToast
-import
+import com.nowiczenkoandrzej.e_bazarek.extensions.show
+import com.nowiczenkoand
