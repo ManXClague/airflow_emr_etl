@@ -23,4 +23,5 @@ import kotlinx.coroutines.flow.collect
 @AndroidEntryPoint
 class ProductsFragment : Fragment() {
 
-    private latei
+    private lateinit var binding: FragmentProductsBinding
+    private lateinit var productsAdapter: Produc
