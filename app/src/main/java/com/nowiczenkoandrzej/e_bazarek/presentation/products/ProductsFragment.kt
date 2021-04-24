@@ -18,4 +18,9 @@ import com.nowiczenkoandrzej.e_bazarek.extensions.quickToast
 import com.nowiczenkoandrzej.e_bazarek.extensions.show
 import com.nowiczenkoandrzej.e_bazarek.utils.DataState
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.
+import kotlinx.coroutines.flow.collect
+
+@AndroidEntryPoint
+class ProductsFragment : Fragment() {
+
+    private latei
