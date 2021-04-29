@@ -33,4 +33,8 @@ class ProductsFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentProductsBind
+        binding = FragmentProductsBinding.inflate(inflater, container, false)
+        return binding.root
+    }
+
+    override fun 
