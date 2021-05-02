@@ -37,4 +37,5 @@ class ProductsFragment : Fragment() {
         return binding.root
     }
 
-    override fun 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, 
