@@ -43,4 +43,6 @@ class ProductsFragment : Fragment() {
         subscribeCollector()
     }
 
-    private fu
+    private fun setRecycleView(){
+        productsAdapter = ProductsAdapter()
+        bi
