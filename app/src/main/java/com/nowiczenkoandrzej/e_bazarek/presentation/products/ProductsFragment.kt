@@ -46,4 +46,9 @@ class ProductsFragment : Fragment() {
     private fun setRecycleView(){
         productsAdapter = ProductsAdapter()
         binding.allProducts.apply {
-            layoutManager = LinearLayoutManager(re
+            layoutManager = LinearLayoutManager(requireContext())
+            adapter = productsAdapter
+        }
+    }
+
+   
