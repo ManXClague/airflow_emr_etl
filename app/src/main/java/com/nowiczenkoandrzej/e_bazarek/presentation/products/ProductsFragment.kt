@@ -51,4 +51,5 @@ class ProductsFragment : Fragment() {
         }
     }
 
-   
+    private fun subscribeCollector(){
+        lifecycleScope.launchWhenStar
