@@ -52,4 +52,6 @@ class ProductsFragment : Fragment() {
     }
 
     private fun subscribeCollector(){
-        lifecycleScope.launchWhenStar
+        lifecycleScope.launchWhenStarted {
+            repeatOnLifecycle(Lifecycle.State.STARTED){
+  
