@@ -54,4 +54,6 @@ class ProductsFragment : Fragment() {
     private fun subscribeCollector(){
         lifecycleScope.launchWhenStarted {
             repeatOnLifecycle(Lifecycle.State.STARTED){
-  
+                viewModel.products.collect{ state ->
+                    when(state){
+            
