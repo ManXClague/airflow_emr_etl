@@ -57,4 +57,5 @@ class ProductsFragment : Fragment() {
                 viewModel.products.collect{ state ->
                     when(state){
                         is DataState.Success -> displayProducts(state.data!!)
-                
+                        is DataState.Error -> displayError(state.message!!)
+           
