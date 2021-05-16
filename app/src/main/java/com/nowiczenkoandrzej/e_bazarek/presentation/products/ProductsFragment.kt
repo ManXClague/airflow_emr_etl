@@ -56,4 +56,5 @@ class ProductsFragment : Fragment() {
             repeatOnLifecycle(Lifecycle.State.STARTED){
                 viewModel.products.collect{ state ->
                     when(state){
-            
+                        is DataState.Success -> displayProducts(state.data!!)
+                
