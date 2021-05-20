@@ -58,4 +58,6 @@ class ProductsFragment : Fragment() {
                     when(state){
                         is DataState.Success -> displayProducts(state.data!!)
                         is DataState.Error -> displayError(state.message!!)
+                        is DataState.Loading -> binding.progressBar.show()
+                    }
            
