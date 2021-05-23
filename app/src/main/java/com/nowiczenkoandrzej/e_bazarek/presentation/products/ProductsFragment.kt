@@ -65,4 +65,6 @@ class ProductsFragment : Fragment() {
         }
     }
 
-    private fun displayProducts(products: List<
+    private fun displayProducts(products: List<ProductResponse>){
+        binding.progressBar.hide()
+        productsAdapter.setProducts(produc
