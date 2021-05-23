@@ -67,4 +67,8 @@ class ProductsFragment : Fragment() {
 
     private fun displayProducts(products: List<ProductResponse>){
         binding.progressBar.hide()
-        productsAdapter.setProducts(produc
+        productsAdapter.setProducts(products)
+    }
+
+    private fun displayError(message: String){
+        binding.progressBar.
