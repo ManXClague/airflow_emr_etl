@@ -60,4 +60,9 @@ class ProductsFragment : Fragment() {
                         is DataState.Error -> displayError(state.message!!)
                         is DataState.Loading -> binding.progressBar.show()
                     }
-           
+                }
+            }
+        }
+    }
+
+    private fun displayProducts(products: List<
