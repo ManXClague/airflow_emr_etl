@@ -71,4 +71,8 @@ class ProductsFragment : Fragment() {
     }
 
     private fun displayError(message: String){
-        binding.progressBar.
+        binding.progressBar.hide()
+        quickToast(message)
+    }
+
+}
