@@ -12,4 +12,6 @@ class ProductsViewModel
 @Inject constructor(
     repository: FirebaseRepository
 ): ViewModel(){
-    private val _products = repository.getAll
+    private val _products = repository.getAllProducts()
+    val products = _products.asStateFlow()
+}
