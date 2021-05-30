@@ -10,4 +10,6 @@ import javax.inject.Inject
 @HiltViewModel
 class ProductsViewModel
 @Inject constructor(
-    reposito
+    repository: FirebaseRepository
+): ViewModel(){
+    private val _products = repository.getAll
