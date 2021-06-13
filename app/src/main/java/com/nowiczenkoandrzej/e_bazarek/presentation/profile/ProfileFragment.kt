@@ -15,4 +15,5 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import com.nowiczenkoandrzej.e_bazarek.utils.DataState
 import com.nowiczenkoandrzej.e_bazarek.R
-import com.nowiczenkoandrzej.e_bazarek.dat
+import com.nowiczenkoandrzej.e_bazarek.data.models.UserResponse
+import com.nowiczenkoandrzej.e_bazarek.databind
