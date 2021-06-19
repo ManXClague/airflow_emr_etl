@@ -16,4 +16,6 @@ import androidx.lifecycle.repeatOnLifecycle
 import com.nowiczenkoandrzej.e_bazarek.utils.DataState
 import com.nowiczenkoandrzej.e_bazarek.R
 import com.nowiczenkoandrzej.e_bazarek.data.models.UserResponse
-import com.nowiczenkoandrzej.e_bazarek.databind
+import com.nowiczenkoandrzej.e_bazarek.databinding.FragmentProfileBinding
+import com.nowiczenkoandrzej.e_bazarek.extensions.*
+import com.nowiczen
