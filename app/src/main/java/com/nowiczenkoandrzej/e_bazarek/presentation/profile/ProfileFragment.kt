@@ -19,4 +19,6 @@ import com.nowiczenkoandrzej.e_bazarek.data.models.UserResponse
 import com.nowiczenkoandrzej.e_bazarek.databinding.FragmentProfileBinding
 import com.nowiczenkoandrzej.e_bazarek.extensions.*
 import com.nowiczenkoandrzej.e_bazarek.presentation.activities.LoginActivity
-import dagger.hilt.android.Android
+import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runB
