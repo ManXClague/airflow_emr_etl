@@ -18,4 +18,5 @@ import com.nowiczenkoandrzej.e_bazarek.R
 import com.nowiczenkoandrzej.e_bazarek.data.models.UserResponse
 import com.nowiczenkoandrzej.e_bazarek.databinding.FragmentProfileBinding
 import com.nowiczenkoandrzej.e_bazarek.extensions.*
-import com.nowiczen
+import com.nowiczenkoandrzej.e_bazarek.presentation.activities.LoginActivity
+import dagger.hilt.android.Android
