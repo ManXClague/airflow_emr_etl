@@ -21,4 +21,9 @@ import com.nowiczenkoandrzej.e_bazarek.extensions.*
 import com.nowiczenkoandrzej.e_bazarek.presentation.activities.LoginActivity
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.runB
+import kotlinx.coroutines.runBlocking
+
+@AndroidEntryPoint
+class ProfileFragment : Fragment() {
+
+    private lateinit
