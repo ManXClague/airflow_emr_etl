@@ -29,4 +29,7 @@ class ProfileFragment : Fragment() {
     private lateinit var binding: FragmentProfileBinding
     private lateinit var actionBarMenu: MenuItem
 
-    
+    private val viewModel: ProfileViewModel by viewModels()
+
+    override fun onCreateView(
+        infla
