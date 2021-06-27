@@ -26,4 +26,7 @@ import kotlinx.coroutines.runBlocking
 @AndroidEntryPoint
 class ProfileFragment : Fragment() {
 
-    private lateinit
+    private lateinit var binding: FragmentProfileBinding
+    private lateinit var actionBarMenu: MenuItem
+
+    
