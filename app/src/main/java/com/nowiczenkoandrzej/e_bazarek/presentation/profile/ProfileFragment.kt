@@ -47,4 +47,6 @@ class ProfileFragment : Fragment() {
     }
 
 
-    private fun 
+    private fun subscribeObserver(){
+        lifecycleScope.launchWhenStarted {
+            repeatOnL
