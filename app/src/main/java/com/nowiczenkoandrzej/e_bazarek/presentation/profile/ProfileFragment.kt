@@ -51,3 +51,5 @@ class ProfileFragment : Fragment() {
         lifecycleScope.launchWhenStarted {
             repeatOnLifecycle(Lifecycle.State.STARTED){
                 viewModel.userState.collect{ state ->
+                    when(state){
+                        is DataState.Succes
