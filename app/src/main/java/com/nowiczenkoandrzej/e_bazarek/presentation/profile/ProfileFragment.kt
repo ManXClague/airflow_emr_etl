@@ -49,4 +49,5 @@ class ProfileFragment : Fragment() {
 
     private fun subscribeObserver(){
         lifecycleScope.launchWhenStarted {
-            repeatOnL
+            repeatOnLifecycle(Lifecycle.State.STARTED){
+                viewModel.userState.collect{ state ->
