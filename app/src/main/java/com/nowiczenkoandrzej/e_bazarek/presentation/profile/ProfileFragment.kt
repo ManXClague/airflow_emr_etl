@@ -52,4 +52,5 @@ class ProfileFragment : Fragment() {
             repeatOnLifecycle(Lifecycle.State.STARTED){
                 viewModel.userState.collect{ state ->
                     when(state){
-                        is DataState.Succes
+                        is DataState.Success -> bindUserData(state.data!!)
+                        is DataState.Lo
