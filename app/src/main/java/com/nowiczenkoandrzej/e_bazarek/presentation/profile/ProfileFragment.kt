@@ -53,4 +53,5 @@ class ProfileFragment : Fragment() {
                 viewModel.userState.collect{ state ->
                     when(state){
                         is DataState.Success -> bindUserData(state.data!!)
-                        is DataState.Lo
+                        is DataState.Loading -> displayUserLoading()
+                        is DataState.Error -> display
