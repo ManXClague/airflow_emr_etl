@@ -65,4 +65,7 @@ class ProfileFragment : Fragment() {
         binding.userDataProgressBar.hide()
         binding.userContainer.show()
         if(user.image == ""){
-            binding.ivAvatar.setImageResource(R.drawable.ic_baselin
+            binding.ivAvatar.setImageResource(R.drawable.ic_baseline_default_avatar)
+        }
+        binding.tvName.text = user.name
+     
