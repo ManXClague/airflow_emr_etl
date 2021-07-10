@@ -54,4 +54,7 @@ class ProfileFragment : Fragment() {
                     when(state){
                         is DataState.Success -> bindUserData(state.data!!)
                         is DataState.Loading -> displayUserLoading()
-                        is DataState.Error -> display
+                        is DataState.Error -> displayUserError(state.message!!)
+                    }
+                }
+  
