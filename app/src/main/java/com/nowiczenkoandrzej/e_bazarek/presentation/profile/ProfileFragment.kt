@@ -62,4 +62,6 @@ class ProfileFragment : Fragment() {
     }
 
     private fun bindUserData(user: UserResponse){
-     
+        binding.userDataProgressBar.hide()
+        binding.userContainer.show()
+        if
