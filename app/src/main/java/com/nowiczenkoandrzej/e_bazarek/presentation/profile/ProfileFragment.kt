@@ -64,4 +64,5 @@ class ProfileFragment : Fragment() {
     private fun bindUserData(user: UserResponse){
         binding.userDataProgressBar.hide()
         binding.userContainer.show()
-        if
+        if(user.image == ""){
+            binding.ivAvatar.setImageResource(R.drawable.ic_baselin
