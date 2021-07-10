@@ -57,4 +57,9 @@ class ProfileFragment : Fragment() {
                         is DataState.Error -> displayUserError(state.message!!)
                     }
                 }
-  
+            }
+        }
+    }
+
+    private fun bindUserData(user: UserResponse){
+     
