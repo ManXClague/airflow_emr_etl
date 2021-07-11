@@ -68,4 +68,5 @@ class ProfileFragment : Fragment() {
             binding.ivAvatar.setImageResource(R.drawable.ic_baseline_default_avatar)
         }
         binding.tvName.text = user.name
-     
+        binding.tvEmail.text = user.email
+        binding.tvRating.text = user.score.t
