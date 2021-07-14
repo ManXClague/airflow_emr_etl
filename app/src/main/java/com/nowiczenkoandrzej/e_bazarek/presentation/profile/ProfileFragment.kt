@@ -69,4 +69,9 @@ class ProfileFragment : Fragment() {
         }
         binding.tvName.text = user.name
         binding.tvEmail.text = user.email
-        binding.tvRating.text = user.score.t
+        binding.tvRating.text = user.score.toString()
+
+    }
+
+    private fun displayUserLoading(){
+        binding.use
