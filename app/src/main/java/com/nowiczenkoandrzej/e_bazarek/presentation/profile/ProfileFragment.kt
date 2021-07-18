@@ -78,4 +78,6 @@ class ProfileFragment : Fragment() {
         binding.userDataProgressBar.show()
     }
 
-    private fun displa
+    private fun displayUserError(message: String){
+        binding.userDataProgressBar.hide()
+        b
