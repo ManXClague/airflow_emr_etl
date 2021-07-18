@@ -85,4 +85,6 @@ class ProfileFragment : Fragment() {
     }
 
     private fun addMenu(){
-  
+        val menuHost: MenuHost = requireActivity()
+
+        menuHost.addMenuPro
