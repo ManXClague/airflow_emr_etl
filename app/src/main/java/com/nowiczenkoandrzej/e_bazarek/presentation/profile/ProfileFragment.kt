@@ -74,4 +74,8 @@ class ProfileFragment : Fragment() {
     }
 
     private fun displayUserLoading(){
-        binding.use
+        binding.userContainer.hide()
+        binding.userDataProgressBar.show()
+    }
+
+    private fun displa
