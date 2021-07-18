@@ -80,4 +80,9 @@ class ProfileFragment : Fragment() {
 
     private fun displayUserError(message: String){
         binding.userDataProgressBar.hide()
-        b
+        binding.userContainer.show()
+        quickToast(message)
+    }
+
+    private fun addMenu(){
+  
