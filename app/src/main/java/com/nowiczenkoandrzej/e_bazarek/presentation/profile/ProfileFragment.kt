@@ -88,4 +88,5 @@ class ProfileFragment : Fragment() {
         val menuHost: MenuHost = requireActivity()
 
         menuHost.addMenuProvider(object : MenuProvider{
-            override fun onCreateMenu(menu: Menu, menu
+            override fun onCreateMenu(menu: Menu, menuInflater: MenuInflater) {
+                menuInflater.inflate(R.menu.hom
