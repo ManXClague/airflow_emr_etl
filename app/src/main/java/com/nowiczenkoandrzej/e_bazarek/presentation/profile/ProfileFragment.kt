@@ -89,4 +89,6 @@ class ProfileFragment : Fragment() {
 
         menuHost.addMenuProvider(object : MenuProvider{
             override fun onCreateMenu(menu: Menu, menuInflater: MenuInflater) {
-                menuInflater.inflate(R.menu.hom
+                menuInflater.inflate(R.menu.home_screen_menu, menu)
+                actionBarMenu = menu.findItem(R.id.edit)
+  
