@@ -95,4 +95,6 @@ class ProfileFragment : Fragment() {
 
             override fun onMenuItemSelected(menuItem: MenuItem): Boolean {
                 return when(menuItem.itemId){
-                    R.
+                    R.id.edit -> {
+                        actionBarMenu.isVisible = false
+                   
