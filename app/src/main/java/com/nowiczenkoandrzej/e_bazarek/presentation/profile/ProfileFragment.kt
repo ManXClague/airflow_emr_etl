@@ -97,4 +97,6 @@ class ProfileFragment : Fragment() {
                 return when(menuItem.itemId){
                     R.id.edit -> {
                         actionBarMenu.isVisible = false
-                   
+                        displayEditScreen()
+                        true
+             
