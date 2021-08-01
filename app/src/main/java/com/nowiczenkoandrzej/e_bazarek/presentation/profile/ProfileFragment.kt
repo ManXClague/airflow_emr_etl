@@ -102,4 +102,7 @@ class ProfileFragment : Fragment() {
                     }
                     R.id.logout -> {
                         logout()
+                        true
+                    }
+                    else -> false
              
