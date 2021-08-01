@@ -99,4 +99,7 @@ class ProfileFragment : Fragment() {
                         actionBarMenu.isVisible = false
                         displayEditScreen()
                         true
+                    }
+                    R.id.logout -> {
+                        logout()
              
