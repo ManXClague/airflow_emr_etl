@@ -105,4 +105,10 @@ class ProfileFragment : Fragment() {
                         true
                     }
                     else -> false
-             
+                }
+            }
+
+        }, viewLifecycleOwner, Lifecycle.State.RESUMED)
+    }
+
+    private
