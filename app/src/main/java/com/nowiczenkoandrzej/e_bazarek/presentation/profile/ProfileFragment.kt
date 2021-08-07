@@ -111,4 +111,5 @@ class ProfileFragment : Fragment() {
         }, viewLifecycleOwner, Lifecycle.State.RESUMED)
     }
 
-    private
+    private fun displayEditScreen(){
+        val btnSaveAnim = AnimationUtils.loadAnimation(requireContex
