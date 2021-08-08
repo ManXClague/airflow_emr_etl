@@ -113,4 +113,7 @@ class ProfileFragment : Fragment() {
 
     private fun displayEditScreen(){
         val btnSaveAnim = AnimationUtils.loadAnimation(requireContext(), R.anim.slide_in_left)
-        val btnEditAnimation = AnimationUtils.loadAnimation(req
+        val btnEditAnimation = AnimationUtils.loadAnimation(requireContext(), R.anim.show)
+
+        binding.buttonSave.show()
+        binding
