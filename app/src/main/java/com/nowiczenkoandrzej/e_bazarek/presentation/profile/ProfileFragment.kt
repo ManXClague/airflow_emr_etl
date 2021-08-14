@@ -116,4 +116,7 @@ class ProfileFragment : Fragment() {
         val btnEditAnimation = AnimationUtils.loadAnimation(requireContext(), R.anim.show)
 
         binding.buttonSave.show()
-        binding
+        binding.buttonEditAvatar.show()
+        binding.buttonEditUsername.show()
+
+        
