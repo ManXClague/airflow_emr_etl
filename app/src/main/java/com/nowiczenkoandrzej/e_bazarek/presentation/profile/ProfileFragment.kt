@@ -120,4 +120,5 @@ class ProfileFragment : Fragment() {
         binding.buttonEditUsername.show()
 
         binding.buttonSave.startAnimation(btnSaveAnim)
-        binding.buttonEditAvatar.
+        binding.buttonEditAvatar.startAnimation(btnEditAnimation)
+        binding.buttonEditUsername.star
