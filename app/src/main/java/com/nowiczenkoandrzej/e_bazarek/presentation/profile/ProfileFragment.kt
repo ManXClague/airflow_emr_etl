@@ -121,4 +121,8 @@ class ProfileFragment : Fragment() {
 
         binding.buttonSave.startAnimation(btnSaveAnim)
         binding.buttonEditAvatar.startAnimation(btnEditAnimation)
-        binding.buttonEditUsername.star
+        binding.buttonEditUsername.startAnimation(btnEditAnimation)
+        binding.ivAvatar.makeMoreTransparent()
+    }
+
+  
