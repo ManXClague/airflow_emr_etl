@@ -125,4 +125,6 @@ class ProfileFragment : Fragment() {
         binding.ivAvatar.makeMoreTransparent()
     }
 
-  
+    private fun logout() {
+        AlertDialog.Builder(requireActivity()).apply {
+   
