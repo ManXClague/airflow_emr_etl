@@ -127,4 +127,6 @@ class ProfileFragment : Fragment() {
 
     private fun logout() {
         AlertDialog.Builder(requireActivity()).apply {
-   
+            setMessage("Are you sure?")
+
+            setPositiveButton("Yes") { _,
