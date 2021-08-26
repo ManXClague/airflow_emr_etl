@@ -129,4 +129,6 @@ class ProfileFragment : Fragment() {
         AlertDialog.Builder(requireActivity()).apply {
             setMessage("Are you sure?")
 
-            setPositiveButton("Yes") { _,
+            setPositiveButton("Yes") { _, _ ->
+                viewModel.logout()
+                Intent(activit
