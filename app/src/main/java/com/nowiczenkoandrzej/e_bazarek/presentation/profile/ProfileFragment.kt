@@ -136,4 +136,10 @@ class ProfileFragment : Fragment() {
 
             setNegativeButton("no"){ dialog, _ ->
                 dialog.dismiss()
-            
+            }
+
+            show()
+        }
+    }
+
+    private fun setListeners(){
