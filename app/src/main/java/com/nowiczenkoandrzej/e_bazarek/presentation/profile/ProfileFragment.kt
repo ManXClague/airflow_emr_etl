@@ -131,4 +131,7 @@ class ProfileFragment : Fragment() {
 
             setPositiveButton("Yes") { _, _ ->
                 viewModel.logout()
-                Intent(activit
+                Intent(activity, LoginActivity::class.java).also { startActivity(it) }
+            }
+
+           
