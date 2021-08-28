@@ -134,4 +134,6 @@ class ProfileFragment : Fragment() {
                 Intent(activity, LoginActivity::class.java).also { startActivity(it) }
             }
 
-           
+            setNegativeButton("no"){ dialog, _ ->
+                dialog.dismiss()
+            
