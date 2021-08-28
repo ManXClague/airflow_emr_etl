@@ -145,4 +145,8 @@ class ProfileFragment : Fragment() {
     private fun setListeners(){
         binding.buttonSave.setOnClickListener {
             saveData()
- 
+        }
+    }
+
+    private fun saveData() {
+        val btnSaveAnim = A
