@@ -143,3 +143,6 @@ class ProfileFragment : Fragment() {
     }
 
     private fun setListeners(){
+        binding.buttonSave.setOnClickListener {
+            saveData()
+ 
