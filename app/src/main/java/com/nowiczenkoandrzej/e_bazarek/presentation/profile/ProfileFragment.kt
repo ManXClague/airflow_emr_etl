@@ -150,4 +150,4 @@ class ProfileFragment : Fragment() {
 
     private fun saveData() {
         val btnSaveAnim = AnimationUtils.loadAnimation(requireContext(), R.anim.slide_out_left)
-        val
+        val btnEditAnimation = AnimationUtils.loadAnimation(requireContext(), R.anim.hide)
