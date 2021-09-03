@@ -149,4 +149,5 @@ class ProfileFragment : Fragment() {
     }
 
     private fun saveData() {
-        val btnSaveAnim = A
+        val btnSaveAnim = AnimationUtils.loadAnimation(requireContext(), R.anim.slide_out_left)
+        val
