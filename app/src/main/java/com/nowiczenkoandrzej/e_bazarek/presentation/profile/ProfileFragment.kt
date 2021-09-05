@@ -154,4 +154,7 @@ class ProfileFragment : Fragment() {
 
         binding.buttonSave.startAnimation(btnSaveAnim)
         binding.buttonEditAvatar.startAnimation(btnEditAnimation)
-        binding.buttonEditUsername.startAnimation(bt
+        binding.buttonEditUsername.startAnimation(btnEditAnimation)
+        binding.ivAvatar.makeLessTransparent()
+
+        binding.buttonSave.
