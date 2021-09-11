@@ -159,4 +159,10 @@ class ProfileFragment : Fragment() {
 
         binding.buttonSave.hide()
         binding.buttonEditAvatar.hide()
-        binding.buttonEditUsern
+        binding.buttonEditUsername.hide()
+        actionBarMenu.isVisible = true
+
+    }
+
+
+}
