@@ -13,4 +13,7 @@ class ProfileViewModel
     private val repository: FirebaseRepository
 ): ViewModel(){
     private val _userState = repository.getCurrentUserData()
-    val userState =
+    val userState = _userState.asStateFlow()
+
+    fun logout() = repository.logout()
+}
