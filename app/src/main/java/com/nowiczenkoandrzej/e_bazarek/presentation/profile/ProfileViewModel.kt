@@ -9,4 +9,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class ProfileViewModel
-@Inject 
+@Inject constructor(
+    private val repository: FirebaseRepository
+): ViewModel(){
+    pr
