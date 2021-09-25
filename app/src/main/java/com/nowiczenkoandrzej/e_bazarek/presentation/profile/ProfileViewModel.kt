@@ -12,4 +12,5 @@ class ProfileViewModel
 @Inject constructor(
     private val repository: FirebaseRepository
 ): ViewModel(){
-    pr
+    private val _userState = repository.getCurrentUserData()
+    val userState =
