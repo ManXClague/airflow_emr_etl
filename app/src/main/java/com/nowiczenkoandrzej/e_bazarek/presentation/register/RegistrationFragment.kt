@@ -9,4 +9,6 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
-import com.nowiczenkoandrzej.e_bazarek.utils.AccountSta
+import com.nowiczenkoandrzej.e_bazarek.utils.AccountState
+import com.nowiczenkoandrzej.e_bazarek.databinding.FragmentRegistrationBinding
+import com.now
