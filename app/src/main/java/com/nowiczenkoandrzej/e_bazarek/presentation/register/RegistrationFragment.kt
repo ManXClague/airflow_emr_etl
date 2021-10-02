@@ -11,4 +11,5 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import com.nowiczenkoandrzej.e_bazarek.utils.AccountState
 import com.nowiczenkoandrzej.e_bazarek.databinding.FragmentRegistrationBinding
-import com.now
+import com.nowiczenkoandrzej.e_bazarek.extensions.hide
+import com.nowiczenkoandrzej.e_bazar
