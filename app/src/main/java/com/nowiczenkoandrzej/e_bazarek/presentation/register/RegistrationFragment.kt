@@ -13,4 +13,6 @@ import com.nowiczenkoandrzej.e_bazarek.utils.AccountState
 import com.nowiczenkoandrzej.e_bazarek.databinding.FragmentRegistrationBinding
 import com.nowiczenkoandrzej.e_bazarek.extensions.hide
 import com.nowiczenkoandrzej.e_bazarek.extensions.quickToast
-import com.nowiczenkoandrzej.e_bazarek.extensi
+import com.nowiczenkoandrzej.e_bazarek.extensions.show
+import com.nowiczenkoandrzej.e_bazarek.extensions.startApp
+import dagger.
