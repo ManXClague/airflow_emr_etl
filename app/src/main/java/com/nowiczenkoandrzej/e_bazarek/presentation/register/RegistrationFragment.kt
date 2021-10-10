@@ -15,4 +15,7 @@ import com.nowiczenkoandrzej.e_bazarek.extensions.hide
 import com.nowiczenkoandrzej.e_bazarek.extensions.quickToast
 import com.nowiczenkoandrzej.e_bazarek.extensions.show
 import com.nowiczenkoandrzej.e_bazarek.extensions.startApp
-import dagger.
+import dagger.hilt.android.AndroidEntryPoint
+
+@AndroidEntryPoint
+class RegistrationFragment : Fragme
