@@ -22,4 +22,6 @@ class RegistrationFragment : Fragment() {
 
     private lateinit var binding: FragmentRegistrationBinding
 
-    priva
+    private val viewModel: RegistrationViewModel by viewModels()
+
+    override fun onCrea
