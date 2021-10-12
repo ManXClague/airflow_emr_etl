@@ -18,4 +18,8 @@ import com.nowiczenkoandrzej.e_bazarek.extensions.startApp
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class RegistrationFragment : Fragme
+class RegistrationFragment : Fragment() {
+
+    private lateinit var binding: FragmentRegistrationBinding
+
+    priva
