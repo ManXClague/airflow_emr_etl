@@ -26,4 +26,6 @@ class RegistrationFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
-        savedI
+        savedInstanceState: Bundle?
+    ): View {
+        binding = FragmentRegistrationBinding.in
