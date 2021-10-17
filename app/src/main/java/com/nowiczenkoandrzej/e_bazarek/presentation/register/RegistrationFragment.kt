@@ -32,4 +32,5 @@ class RegistrationFragment : Fragment() {
         return binding.root
     }
 
-    overri
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onV
