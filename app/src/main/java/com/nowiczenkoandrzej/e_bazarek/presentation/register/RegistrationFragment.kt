@@ -28,4 +28,8 @@ class RegistrationFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentRegistrationBinding.in
+        binding = FragmentRegistrationBinding.inflate(inflater, container, false)
+        return binding.root
+    }
+
+    overri
