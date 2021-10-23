@@ -35,4 +35,9 @@ class RegistrationFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setSingUpButtonListener()
-        subscribeC
+        subscribeCollector()
+    }
+
+    private fun setSingUpButtonListener(){
+
+        binding.bu
