@@ -40,4 +40,6 @@ class RegistrationFragment : Fragment() {
 
     private fun setSingUpButtonListener(){
 
-        binding.bu
+        binding.buttonSignUp.setOnClickListener {
+            if(isInputNotValid()) return@setOnClickListener
+           
