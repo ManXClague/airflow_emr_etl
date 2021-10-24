@@ -42,4 +42,8 @@ class RegistrationFragment : Fragment() {
 
         binding.buttonSignUp.setOnClickListener {
             if(isInputNotValid()) return@setOnClickListener
-           
+            createAccount()
+        }
+    }
+
+    private fun isInputNotValid(): Boolean 
