@@ -46,4 +46,6 @@ class RegistrationFragment : Fragment() {
         }
     }
 
-    private fun isInputNotValid(): Boolean 
+    private fun isInputNotValid(): Boolean {
+        return if(binding.inputEmail.text!!.isBlank() ||
+            binding.inp
