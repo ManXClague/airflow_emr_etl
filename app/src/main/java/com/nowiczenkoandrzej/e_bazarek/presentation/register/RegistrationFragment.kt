@@ -48,4 +48,5 @@ class RegistrationFragment : Fragment() {
 
     private fun isInputNotValid(): Boolean {
         return if(binding.inputEmail.text!!.isBlank() ||
-            binding.inp
+            binding.inputPassword.text!!.isBlank() ||
+            binding.inputRepeatPassword.text!!.isBla
