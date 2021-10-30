@@ -49,4 +49,8 @@ class RegistrationFragment : Fragment() {
     private fun isInputNotValid(): Boolean {
         return if(binding.inputEmail.text!!.isBlank() ||
             binding.inputPassword.text!!.isBlank() ||
-            binding.inputRepeatPassword.text!!.isBla
+            binding.inputRepeatPassword.text!!.isBlank()){
+
+            quickToast("You have to fill all fields")
+            true
+    
