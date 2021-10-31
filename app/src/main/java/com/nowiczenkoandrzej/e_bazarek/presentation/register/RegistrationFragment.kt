@@ -53,4 +53,9 @@ class RegistrationFragment : Fragment() {
 
             quickToast("You have to fill all fields")
             true
-    
+        } else
+            false
+    }
+
+    private fun createAccount(){
+        val 
