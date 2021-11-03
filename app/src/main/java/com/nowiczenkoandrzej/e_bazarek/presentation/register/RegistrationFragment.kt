@@ -58,4 +58,5 @@ class RegistrationFragment : Fragment() {
     }
 
     private fun createAccount(){
-        val 
+        val email = binding.inputEmail.text?.trim().toString()
+        val password 
