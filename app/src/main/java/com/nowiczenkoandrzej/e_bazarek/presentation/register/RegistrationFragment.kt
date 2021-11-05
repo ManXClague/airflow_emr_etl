@@ -60,4 +60,6 @@ class RegistrationFragment : Fragment() {
     private fun createAccount(){
         val email = binding.inputEmail.text?.trim().toString()
         val password = binding.inputPassword.text?.trim().toString()
-        val repeatedPassword = bind
+        val repeatedPassword = binding.inputRepeatPassword.text?.trim().toString()
+
+        if(password == repeatedPassw
