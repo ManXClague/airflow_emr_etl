@@ -68,4 +68,6 @@ class RegistrationFragment : Fragment() {
             quickToast("Passwords are not the same")
     }
 
-    private fun subscribeColl
+    private fun subscribeCollector(){
+        lifecycleScope.launchWhenStarted {
+            repeatOnLifecycle(Li
