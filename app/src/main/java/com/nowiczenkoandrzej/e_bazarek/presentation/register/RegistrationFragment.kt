@@ -65,4 +65,7 @@ class RegistrationFragment : Fragment() {
         if(password == repeatedPassword)
             viewModel.createUser(email, password)
         else
-       
+            quickToast("Passwords are not the same")
+    }
+
+    private fun subscribeColl
