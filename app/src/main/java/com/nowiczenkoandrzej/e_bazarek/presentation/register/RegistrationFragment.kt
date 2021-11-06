@@ -62,4 +62,7 @@ class RegistrationFragment : Fragment() {
         val password = binding.inputPassword.text?.trim().toString()
         val repeatedPassword = binding.inputRepeatPassword.text?.trim().toString()
 
-        if(password == repeatedPassw
+        if(password == repeatedPassword)
+            viewModel.createUser(email, password)
+        else
+       
