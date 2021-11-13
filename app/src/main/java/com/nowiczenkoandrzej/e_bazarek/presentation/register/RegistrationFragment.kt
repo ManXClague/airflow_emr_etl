@@ -70,4 +70,5 @@ class RegistrationFragment : Fragment() {
 
     private fun subscribeCollector(){
         lifecycleScope.launchWhenStarted {
-            repeatOnLifecycle(Li
+            repeatOnLifecycle(Lifecycle.State.STARTED){
+                viewModel.registrationState.collec
