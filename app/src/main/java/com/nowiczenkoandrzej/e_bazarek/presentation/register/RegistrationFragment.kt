@@ -75,4 +75,5 @@ class RegistrationFragment : Fragment() {
                     when(state){
                         is AccountState.Success -> {
                             binding.progressBar.hide()
-    
+                            startApp(requireContext())
+                        }
