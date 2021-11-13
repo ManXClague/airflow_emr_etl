@@ -73,4 +73,6 @@ class RegistrationFragment : Fragment() {
             repeatOnLifecycle(Lifecycle.State.STARTED){
                 viewModel.registrationState.collect{ state ->
                     when(state){
-                        is Account
+                        is AccountState.Success -> {
+                            binding.progressBar.hide()
+    
