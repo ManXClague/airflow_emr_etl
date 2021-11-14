@@ -78,4 +78,6 @@ class RegistrationFragment : Fragment() {
                             startApp(requireContext())
                         }
                         is AccountState.Failure -> {
-                            bindin
+                            binding.progressBar.hide()
+                            quickToast(state.error)
+                     
