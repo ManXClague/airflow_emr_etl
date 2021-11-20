@@ -80,4 +80,6 @@ class RegistrationFragment : Fragment() {
                         is AccountState.Failure -> {
                             binding.progressBar.hide()
                             quickToast(state.error)
-                     
+                        }
+                        is AccountState.Loading -> binding.progressBar.show()
+     
