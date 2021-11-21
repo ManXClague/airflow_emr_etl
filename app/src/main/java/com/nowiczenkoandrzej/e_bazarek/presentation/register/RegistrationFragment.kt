@@ -82,4 +82,7 @@ class RegistrationFragment : Fragment() {
                             quickToast(state.error)
                         }
                         is AccountState.Loading -> binding.progressBar.show()
-     
+                        is AccountState.Empty -> Unit
+                    }
+                }
+       
