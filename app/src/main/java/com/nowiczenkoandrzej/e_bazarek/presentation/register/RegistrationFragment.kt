@@ -85,4 +85,8 @@ class RegistrationFragment : Fragment() {
                         is AccountState.Empty -> Unit
                     }
                 }
-       
+            }
+        }
+    }
+
+}
