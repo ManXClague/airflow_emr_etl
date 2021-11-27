@@ -9,4 +9,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import javax.inject.Inject
 
 @HiltViewModel
-class Re
+class RegistrationViewModel
+@Inject constructor(
+    private val fbAuth: FirebaseAuth
+): Vie
