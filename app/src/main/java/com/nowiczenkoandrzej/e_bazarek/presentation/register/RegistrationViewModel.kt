@@ -12,4 +12,6 @@ import javax.inject.Inject
 class RegistrationViewModel
 @Inject constructor(
     private val fbAuth: FirebaseAuth
-): Vie
+): ViewModel(){
+
+    private val _registrationState = MutableStateFlow<AccountSt
