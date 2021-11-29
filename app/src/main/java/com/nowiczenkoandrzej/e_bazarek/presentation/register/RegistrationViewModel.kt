@@ -14,4 +14,5 @@ class RegistrationViewModel
     private val fbAuth: FirebaseAuth
 ): ViewModel(){
 
-    private val _registrationState = MutableStateFlow<AccountSt
+    private val _registrationState = MutableStateFlow<AccountState>(AccountState.Empty)
+    val registrationState = _registrationState.a
