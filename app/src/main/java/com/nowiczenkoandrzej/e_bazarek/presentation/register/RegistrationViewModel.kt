@@ -18,4 +18,6 @@ class RegistrationViewModel
     val registrationState = _registrationState.asStateFlow()
 
     fun createUser(email: String, password: String) {
-        _regist
+        _registrationState.value = AccountState.Loading
+
+        fbAuth.createUserWithEmailAndPasswor
