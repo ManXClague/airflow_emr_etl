@@ -15,4 +15,7 @@ class RegistrationViewModel
 ): ViewModel(){
 
     private val _registrationState = MutableStateFlow<AccountState>(AccountState.Empty)
-    val registrationState = _registrationState.a
+    val registrationState = _registrationState.asStateFlow()
+
+    fun createUser(email: String, password: String) {
+        _regist
