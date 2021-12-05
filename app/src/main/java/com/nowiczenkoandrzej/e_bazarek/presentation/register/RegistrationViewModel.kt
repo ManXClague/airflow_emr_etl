@@ -20,4 +20,6 @@ class RegistrationViewModel
     fun createUser(email: String, password: String) {
         _registrationState.value = AccountState.Loading
 
-        fbAuth.createUserWithEmailAndPasswor
+        fbAuth.createUserWithEmailAndPassword(email, password)
+            .addOnSuccessListener { authRes ->
+                
