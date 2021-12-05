@@ -22,4 +22,5 @@ class RegistrationViewModel
 
         fbAuth.createUserWithEmailAndPassword(email, password)
             .addOnSuccessListener { authRes ->
-                
+                if(authRes.user != null)
+                    _registrationState.value = Accou
