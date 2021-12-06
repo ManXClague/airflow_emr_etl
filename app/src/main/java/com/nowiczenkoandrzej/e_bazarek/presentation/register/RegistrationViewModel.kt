@@ -25,4 +25,6 @@ class RegistrationViewModel
                 if(authRes.user != null)
                     _registrationState.value = AccountState.Success
                 else
-                    _registrationState
+                    _registrationState.value = AccountState.Failure("Ups... Something went wrong...")
+            }
+    
