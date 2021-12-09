@@ -27,4 +27,5 @@ class RegistrationViewModel
                 else
                     _registrationState.value = AccountState.Failure("Ups... Something went wrong...")
             }
-    
+            .addOnFailureListener {
+                _registrationState.value = Accou
