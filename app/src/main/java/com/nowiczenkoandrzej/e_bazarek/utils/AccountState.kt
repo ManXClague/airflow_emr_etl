@@ -2,4 +2,6 @@ package com.nowiczenkoandrzej.e_bazarek.utils
 
 sealed class AccountState{
     object Success : AccountState()
-    c
+    class Failure(val error: String): AccountState()
+    object Loading: AccountState()
+  
