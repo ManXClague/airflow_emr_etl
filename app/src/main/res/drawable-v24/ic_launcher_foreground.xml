@@ -22,4 +22,6 @@
         </aapt:attr>
     </path>
     <path
-        android:
+        android:fillColor="#FFFFFF"
+        android:fillType="nonZero"
+        android:pathData="M65.3,45.828l3.8,
