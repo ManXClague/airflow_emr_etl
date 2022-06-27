@@ -7,4 +7,6 @@
     tools:context=".presentation.activities.ContentActivity">
 
     <fragment
-        android:id="@+id/na
+        android:id="@+id/nav_host"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:lay
