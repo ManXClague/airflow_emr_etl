@@ -15,4 +15,6 @@
         app:layout_constraintBottom_toTopOf="@+id/bottom_nav"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_con
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph="@navigation/content_nav_graph" />
+
