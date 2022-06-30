@@ -18,3 +18,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/content_nav_graph" />
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+   
