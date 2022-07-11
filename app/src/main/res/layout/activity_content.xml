@@ -28,4 +28,4 @@
         app:menu="@menu/bottom_nav_menu" />
 
 
-</androi
+</androidx.constraintlayout.widget.ConstraintLayout>
