@@ -14,4 +14,6 @@
         android:padding="16dp">
 
         <ImageView
-    
+            android:id="@+id/iv_product"
+            android:layout_width="0dp"
+       
