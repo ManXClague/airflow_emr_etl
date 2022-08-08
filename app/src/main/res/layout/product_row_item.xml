@@ -16,4 +16,6 @@
         <ImageView
             android:id="@+id/iv_product"
             android:layout_width="0dp"
-       
+            android:layout_height="350dp"
+            android:scaleType="centerCrop"
+    
