@@ -24,4 +24,6 @@
             tools:src="@drawable/ic_launcher_background" />
 
         <TextView
-            android:i
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:la
