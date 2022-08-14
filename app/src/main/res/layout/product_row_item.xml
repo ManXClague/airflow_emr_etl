@@ -30,4 +30,6 @@
             android:layout_marginTop="12dp"
             android:layout_marginEnd="8dp"
             android:maxLines="3"
-            android:textSize="
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@id/iv_fav_button"
+           
