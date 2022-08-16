@@ -38,4 +38,6 @@
 
         <ImageView
             android:id="@+id/iv_fav_button"
-            and
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+   
