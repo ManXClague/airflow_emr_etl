@@ -36,4 +36,6 @@
             app:layout_constraintTop_toBottomOf="@id/iv_product"
             tools:text="Title" />
 
-  
+        <ImageView
+            android:id="@+id/iv_fav_button"
+            and
