@@ -41,4 +41,5 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:src="@drawable/ic_baseline_
+            android:src="@drawable/ic_baseline_add_favorites_button_36"
+            app:layout_constraintEnd_toEndOf="pa
