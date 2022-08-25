@@ -56,4 +56,5 @@
             app:layout_constraintTop_toBottomOf="@id/iv_product" />
 
         <TextView
-      
+            android:id="@+id/tv_description"
+            android:layout_width="0d
