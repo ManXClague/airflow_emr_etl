@@ -70,3 +70,5 @@
             android:id="@+id/tv_price"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:layout_constr
