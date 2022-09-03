@@ -77,4 +77,7 @@
             tools:text="$99.99" />
 
 
-    </androidx.constraintlayout.widget.Constrai
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
