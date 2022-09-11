@@ -11,4 +11,7 @@
 
     <item
         android:id="@+id/logout"
-        android:icon="@drawable/ic_basel
+        android:icon="@drawable/ic_baseline_logout_24"
+        android:orderInCategory="100"
+        android:title=""
+        app
