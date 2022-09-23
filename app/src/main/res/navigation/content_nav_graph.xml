@@ -6,4 +6,5 @@
     app:startDestination="@id/profileFragment">
 
     <fragment
-        android:i
+        android:id="@+id/profileFragment"
+        android:name="com.nowiczenkoandrzej.e_bazarek.presenta
