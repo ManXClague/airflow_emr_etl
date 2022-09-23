@@ -7,4 +7,6 @@
 
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.nowiczenkoandrzej.e_bazarek.presenta
+        android:name="com.nowiczenkoandrzej.e_bazarek.presentation.profile.ProfileFragment"
+        android:label="Home"
+        tools:layout="@
