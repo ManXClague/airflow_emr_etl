@@ -9,4 +9,7 @@
         android:id="@+id/profileFragment"
         android:name="com.nowiczenkoandrzej.e_bazarek.presentation.profile.ProfileFragment"
         android:label="Home"
-        tools:layout="@
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/favoritesFragment"
