@@ -15,4 +15,8 @@
         android:id="@+id/favoritesFragment"
         android:name="com.nowiczenkoandrzej.e_bazarek.presentation.favorites.FavoritesFragment"
         android:label="Favorites"
-        tools:layout="@layout/frag
+        tools:layout="@layout/fragment_favorites" />
+
+    <fragment
+        android:id="@+id/productsFragment"
+    
