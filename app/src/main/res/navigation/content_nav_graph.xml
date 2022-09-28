@@ -19,4 +19,4 @@
 
     <fragment
         android:id="@+id/productsFragment"
-    
+        android:name="com.nowiczenkoandrzej.e_bazarek.presentation.products.Produ
