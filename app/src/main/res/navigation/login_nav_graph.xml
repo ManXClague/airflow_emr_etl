@@ -8,4 +8,6 @@
     <fragment
         tools:layout="@layout/fragment_login"
         android:id="@+id/loginFragment"
-        android:name="com.nowiczenkoandrzej.e_baz
+        android:name="com.nowiczenkoandrzej.e_bazarek.presentation.login.LoginFragment"
+        android:label="LoginFragment" >
+  
