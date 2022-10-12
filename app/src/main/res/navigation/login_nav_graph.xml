@@ -12,3 +12,5 @@
         android:label="LoginFragment" >
         <action
             android:id="@+id/action_loginFragment_to_registrationFragment"
+            app:destination="@id/registrationFragment"
+            app:popEnterAnim=
