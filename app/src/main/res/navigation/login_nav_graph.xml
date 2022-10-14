@@ -20,4 +20,5 @@
     </fragment>
     <fragment
         tools:layout="@layout/fragment_registration"
-        android:id="@+id/registration
+        android:id="@+id/registrationFragment"
+        android:name="com.nowiczenkoandrzej.e_bazarek.presentation.register.RegistrationFr
