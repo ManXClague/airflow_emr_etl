@@ -19,4 +19,5 @@
             app:exitAnim="@anim/slide_out_left"/>
     </fragment>
     <fragment
-        tools:layout="
+        tools:layout="@layout/fragment_registration"
+        android:id="@+id/registration
